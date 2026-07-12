@@ -1,4 +1,6 @@
-const API_KEY = "241051bf13976dd3ddf8b8d9f247255e";
+// Supply your own OpenWeatherMap API key. Do NOT commit real keys to source.
+// e.g. serve it from a backend, or read from a local (git-ignored) config.
+const API_KEY = "YOUR_OPENWEATHERMAP_API_KEY";
 const WEATHER_API = "https://api.openweathermap.org/data/2.5/weather?";
 
 const weather = document.querySelector(".js-weather .weather__text");
